@@ -3,7 +3,7 @@ const app = express()
 const { google } = require("googleapis")
 app.set("view engine", "ejs")
 
-let api_key = "AIzaSyCpXmoiuD8SzQs--KRJoKlzabxHC5epCN4"
+let api_key = "api_key"
 const youtube = google.youtube({
   version: "v3",
   auth: api_key,
